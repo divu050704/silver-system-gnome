@@ -6,31 +6,31 @@ def zero():
 def zero1():
 	print(282)
 def one():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 boot.py')
 def two():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 do.py')
 def three():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 ping.py')
 def four():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 wifi.py')
 def five():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 install.py')
 def six():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 app.py')
 def seven():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 remove.py')
 def eight():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 dir.py')
 def nine():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 file.py')
 if ch == 'n':
 	exit()
