@@ -23,7 +23,7 @@ if ch == 3:
 	path = input('Enter the path to installation:\t')
 	os.chdir = path
 	software = input('Enter the link of the git software:\t')
-	install = subprocess.run[('git', 'clone',software)]   
+	install = subprocess.run(['git', 'clone',software])   
 if ch == 4:
 	os.system('gnome-software')
 
