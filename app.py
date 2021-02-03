@@ -83,6 +83,7 @@ def n23():
 		c2 = input('Do you want to continue running Virtual Machines(Y/n):\t')
 def n24():
 	os.system('google-chrome --app=https://web.whatsapp.com/')
+#You can edit these applications as you want 
 ch = 'Y'
 while ch == 'Y':
 	print('Which application You want to open:')
