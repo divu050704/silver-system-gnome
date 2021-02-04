@@ -9,5 +9,5 @@ $ git clone https://github.com/divu050704/silver-system
 ## Use 
 1. Open terminal
 2. Go to silver-system directory
-3. run :- $ python3 .oof.py
+3. run :- $ gtk-launch silver-system.desktop
 ### Done | Have fun 
