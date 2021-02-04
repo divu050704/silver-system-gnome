@@ -1,9 +1,10 @@
 # silver-system
+## Use anything right from your terminal
 1. Made especially for linux newbies
 2. Proobloms what I faced while learning bash made simple
 3. Please help me get more functionalities
 4. Deliberately not used GUI so that you can get used to bash
-Use anything right from your terminal
+
 ## Requirements:
 1. Linux
 2. Python > 2.7 ($ sudo apt install python3.9)
