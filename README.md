@@ -14,6 +14,7 @@ $ git clone https://github.com/divu050704/silver-system
 ## Use 
 1. Open terminal
 2. Go to silver-system directory
-3. run (First time) :- $ chmod +x main.sh && ./main.sh
-4. Now you can run whenever you want or create desktop file as given in silver-system.desktop:- $./main.sh
+3. Go to nautilus => Click 3-vertical dots => Prefrence => Behaviour => For executible files click radio button 'Run Them'
+4. run (First time) :- $ chmod +x main.sh && ./main.sh
+5. Now you can run whenever you want or create desktop file as given in silver-system.desktop:- $./main.sh
 ### Done | Have fun 
