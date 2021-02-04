@@ -32,6 +32,8 @@ def eight():
 def nine():
 	
 	os.system('python3 file.py')
+def ten():
+	os.system('python3 del.py')
 if ch == 'n':
 	exit()
 while ch == 'Y':
@@ -46,6 +48,7 @@ while ch == 'Y':
 	print('7.\t Remove an application')
 	print('8.\t Change your working directory')
 	print('9.\t Want to see files in a particular folder')
+	print('10.\t Want to remove files and folders')
 	y = float(input('Enter you choice:\t'))		 
 	if y == 0 :
 		zero()
@@ -69,4 +72,6 @@ while ch == 'Y':
 		eight()
 	if y == 9:
 		nine()
+	if y == 10:
+		ten()
 	ch = input('\nDo you want to continue main program(Y/n):\t')
