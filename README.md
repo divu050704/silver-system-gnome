@@ -2,7 +2,7 @@
 Use anything right from your terminal
 ## Requirements:
 1. Linux
-2. Python > 2.7 
+2. Python > 2.7 ($ sudo apt install python3.9)
 ## Installation
 ### Linux
 $ git clone https://github.com/divu050704/silver-system
