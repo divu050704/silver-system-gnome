@@ -8,6 +8,9 @@
 ## Requirements:
 1. Linux
 2. Python > 2.7 ($ sudo apt install python3.9)
+3. os library ('$ pip3 install os')
+4. subprocess library ('$ pip3 install subprocess')
+5. Ofcourse pip3 to install libraries('$ sudo apt get-install pip3')
 ## Installation
 ### Linux
 $ git clone https://github.com/divu050704/silver-system
