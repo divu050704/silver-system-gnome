@@ -1,4 +1,8 @@
 # silver-system
+1. Made especially for linux newbies
+2. Proobloms what I faced while learning bash made simple
+3. Please help me get more functionalities
+4. Deliberately not used GUI so that you can get used to bash
 Use anything right from your terminal
 ## Requirements:
 1. Linux
