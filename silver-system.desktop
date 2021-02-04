@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=0.1
+Name=Silver-System
+Exec=/home/divyanshu/Desktop/project/main.sh
+Icon=/home/divyanshu/Desktop/project/drawing-1.svg
+Type=Application
+Terminal=true
