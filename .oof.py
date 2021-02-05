@@ -57,7 +57,7 @@ while ch == 'Y':
 		zero()
 	if y == 0.1:
 		zero1()
-	if y == 0.2():
+	if y == 0.2:
 		zero2()
 	if y==1:
 		one()
