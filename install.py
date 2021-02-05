@@ -21,7 +21,7 @@ if ch == 2:
 		install = subprocess.run(['sudo', 'snap', 'install',software1])
 if ch == 3:
 	path = input('Enter the path to installation:\t')
-	os.chdir = path
+	os.chdir(path)
 	software = input('Enter the link of the git software:\t')
 	install = subprocess.run(['git', 'clone',software])   
 if ch == 4:
