@@ -1,5 +1,5 @@
 # silver-system
-## Use anything right from your terminal
+## Bash made a bit simple
 1. Made especially for linux newbies
 2. Tried to solve problems what I faced while learning bash and linux
 3. Please help me get more functionalities
