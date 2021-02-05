@@ -177,4 +177,8 @@ while c == 'Y':
 			if d == 2:
 				print('\n$ sudo rm -r <path><folder>')
 			k = input('\nDo you want to continue see code for remove of files and folders(Y/n):\t')
+	if ch == 11:
+		print('\n$ mv <file-to-be-moved> <final-destination-of-file-or-folder>')
+	if ch == 12:
+		print('\n$ cp <file-to-be-copied> <final-destination-of-file-or-folder>')
 	c = input('\nDo you want to continue looking for codes(Y/n):\t') 
