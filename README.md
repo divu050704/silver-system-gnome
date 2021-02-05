@@ -6,14 +6,14 @@
 4. Deliberately not used GUI so that you can get used to bash
 
 ## Requirements:
-1. Linux
-2. Python > 2.7 
+### Linux
+### Python > 2.7 
             $ sudo apt install python3.9
-3. os library 
+### os library 
             $ pip3 install os
-4. subprocess library 
+### subprocess library 
             $ pip3 install subprocess
-5. Ofcourse pip3 to install libraries 
+### Ofcourse pip3 to install libraries 
             $ sudo apt get-install pip3'
 ## Installation
 ### Linux
