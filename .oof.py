@@ -5,6 +5,8 @@ def zero():
 	exit()
 def zero1():
 	print(282)
+def zero2():
+	os.system('python3 knowledge.py')
 def one():
 	
 	os.system('python3 boot.py')
@@ -39,6 +41,7 @@ if ch == 'n':
 while ch == 'Y':
 	print('0.\t Exit')
 	print('0.1\t See number of lines in programs')
+	print('0.2\t Want to see bash codes for following programs')
 	print('1.\t See boot time')
 	print('2.\t Do a system upgrade')
 	print('3.\t Ping any website')
@@ -54,6 +57,8 @@ while ch == 'Y':
 		zero()
 	if y == 0.1:
 		zero1()
+	if y == 0.2():
+		zero2()
 	if y==1:
 		one()
 	if y==2:
