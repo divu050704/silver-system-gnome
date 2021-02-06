@@ -4,4 +4,4 @@ Name=Silver-System
 Exec=main.sh
 Icon=drawing-1.svg
 Type=Application
-Terminal=true
+Terminal=false
