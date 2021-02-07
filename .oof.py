@@ -45,6 +45,8 @@ def thirteen():
 def fourteen():
 	os.system('python3 search.py')
 def fifteen():
+	os.system('python3 about.py')
+def sixteen()():
 	os.system('python3 disk-info.py')
 if ch == 'n':
 	exit()
