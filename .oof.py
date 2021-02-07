@@ -69,7 +69,7 @@ while ch == 'Y':
 	print('13.\t Locate files and folders')
 	print('14.\t Search a keyword in a file')
 	print('15.\t Want to know about your machine')
-	print('16.\t Wnant to see disk information')
+	print('16.\t Want to see disk information')
 	y = float(input('Enter you choice:\t'))		 
 	if y == 0 :
 		zero()
