@@ -40,6 +40,12 @@ def eleven():
 	os.system('python3 move.py')
 def twelve():
 	os.system('python3 copy.py')
+def thirteen():
+	os.system('python3 locate.py')
+def fourteen():
+	os.system('python3 search.py')
+def fifteen():
+	os.system('python3 disk-info.py')
 if ch == 'n':
 	exit()
 while ch == 'Y':
