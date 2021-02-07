@@ -58,6 +58,10 @@ while ch == 'Y':
 	print('10.\t Want to remove files and folders')
 	print('11.\t Move a file or folder')
 	print('12.\t Copy foldes and files from one place to another')
+	print('13.\t Locate files and folders')
+	print('14.\t Search a keyword in a file')
+	print('15.\t Want to know about your machine')
+	print('16.\t Wnant to see disk information')
 	y = float(input('Enter you choice:\t'))		 
 	if y == 0 :
 		zero()
@@ -89,4 +93,12 @@ while ch == 'Y':
 		eleven()
 	if y == 12:
 		twelve()
+	if y == 13:
+		thirteen()
+	if y == 14:
+		fourteen()
+	if y == 15:
+		fifteen()
+	if y == 16:
+		sixteen()
 	ch = input('\nDo you want to continue main program(Y/n):\t')
