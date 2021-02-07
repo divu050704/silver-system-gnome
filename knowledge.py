@@ -11,6 +11,12 @@ while c == 'Y':
 	print('8.\t Change your working directory')
 	print('9.\t To see files in a particular folder')
 	print('10.\t To remove files and folders')
+	print('11.\t Move files and folders')
+	print('12.\t Copy files and folders')
+	print('13.\t Locate files and folders')
+	print('14.\t Search a keyword in a file')
+	print('15.\t Want to know about your machine')
+	print('16.\t Want to see disk information')
 	ch = int(input('Enter your choice:\t'))
 	if ch == 0:
 		exit()
@@ -181,4 +187,22 @@ while c == 'Y':
 		print('\n$ mv <file-to-be-moved> <final-destination-of-file-or-folder>')
 	if ch == 12:
 		print('\n$ cp <file-to-be-copied> <final-destination-of-file-or-folder>')
+	if ch == 13:
+		print('\n$ locate <file-name>')
+	if ch == 14:
+		print('\n$ grep <keyword> <file-name>')
+	if ch == 15:
+		print('\n$ neofetch')
+	if ch == 16:
+		t = 'Y'
+		while t == 'Y':
+			print('In which format you want')
+			print('1.\t megabytes')
+			print('2.\t bytes')
+			d = int(input('Enter your choice:\t'))
+			if d == 1:
+				print('$ df -m')
+			if d == 2:
+				print('$ df')
+			t = input('Do you want to continue searching code for about disk:\t')
 	c = input('\nDo you want to continue looking for codes(Y/n):\t') 
