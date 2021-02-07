@@ -12,4 +12,4 @@ while ch == 'Y':
 		os.system('df -m')
 	if y == 2:
 		os.system('df')
-	ch = input('Do you wnat to continue seeing disk informations in different formats:\t')
+	ch = input('Do you wnat to continue seeing disk informations in different formats(Y/n):\t')
