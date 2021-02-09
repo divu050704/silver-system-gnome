@@ -1,3 +1,17 @@
+class color():
+   purple = '\033[95m'
+   cyan = '\033[96m'
+   darkcyan = '\033[36m'
+   blue = '\033[94m'
+   blued = '\033[92m'
+   yellow = '\033[93m'
+   red = '\033[91m'
+   silver = '\033[3;30;47m'
+   orange= '\033[33m'
+   bold = '\033[1m'
+   green = '\033[32m'
+   underline = '\033[4m'
+   end = '\033[0m'
 file1 = open('about.py','r')
 counter1 = 0
 content1 = file1.read()
@@ -145,5 +159,5 @@ for i in colist19:
 		counter19 += 1
 ###############################################################
 total = counter1+counter2+counter3+counter4+counter5+counter6+counter7+counter8+counter9+counter11+counter12+counter13+counter14+counter15+counter16+counter17+counter18+counter19
-total1 = total + 156
-print('\nTotal number of lines in all the programs:\t',total1)
+total1 = total + 149
+print(color.red+color.bold+'\nTotal number of lines in all the programs:\t'+color.end,total1)
