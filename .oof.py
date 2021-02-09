@@ -5,7 +5,7 @@ class color:
    cyan = '\033[96m'
    darkcyan = '\033[36m'
    blue = '\033[94m'
-   green = '\033[92m'
+   blued = '\033[92m'
    yellow = '\033[93m'
    red = '\033[91m'
    silver = '\033[3;30;47m'
@@ -72,25 +72,25 @@ while ch == 'Y':
 	print(color.bold+color.silver+'\t\t                     |     |            '+color.end)
 	print(color.bold+color.silver+'\t\t                   UU|UUUUUU            '+color.end)
 	print(color.bold+color.silver+'\t\t             UUUUUUUUUU                 '+color.end)
-	print(color.green+'0.\t Exit'+color.end)
-	print(color.green+'0.1\t See number of lines in programs'+color.end)
-	print(color.green+'0.2\t Want to see code for below programs'+color.end)
-	print(color.green+'1.\t See boot time'+color.end)
-	print(color.green+'2.\t Do a system upgrade'+color.end)
-	print(color.green+'3.\t Ping any website'+color.end)
-	print(color.green+'4.\t Search devices connected to wifi'+color.end)
-	print(color.green+'5.\t Install a new application'+color.end)
-	print(color.green+'6.\t Run an application'+color.end)
-	print(color.green+'7.\t Remove an application'+color.end)
-	print(color.green+'8.\t Change your working directory'+color.end)
-	print(color.green+'9.\t Want to see files in a particular folder'+color.end)
-	print(color.green+'10.\t Want to remove files and folders'+color.end)
-	print(color.green+'11.\t Move files and folders'+color.end)
-	print(color.green+'12.\t Copy files and folders'+color.end)
-	print(color.green+'13.\t Locate files and folders'+color.end)
-	print(color.green+'14.\t Search a keyword in a file'+color.end)
-	print(color.green+'15.\t Want to know about your machine'+color.end)
-	print(color.green+'16.\t Want to see disk information'+color.end)
+	print(color.blued+'0.\t Exit'+color.end)
+	print(color.blued+'0.1\t See number of lines in programs'+color.end)
+	print(color.blued+'0.2\t Want to see code for below programs'+color.end)
+	print(color.blued+'1.\t See boot time'+color.end)
+	print(color.blued+'2.\t Do a system upgrade'+color.end)
+	print(color.blued+'3.\t Ping any website'+color.end)
+	print(color.blued+'4.\t Search devices connected to wifi'+color.end)
+	print(color.blued+'5.\t Install a new application'+color.end)
+	print(color.blued+'6.\t Run an application'+color.end)
+	print(color.blued+'7.\t Remove an application'+color.end)
+	print(color.blued+'8.\t Change your working directory'+color.end)
+	print(color.blued+'9.\t Want to see files in a particular folder'+color.end)
+	print(color.blued+'10.\t Want to remove files and folders'+color.end)
+	print(color.blued+'11.\t Move files and folders'+color.end)
+	print(color.blued+'12.\t Copy files and folders'+color.end)
+	print(color.blued+'13.\t Locate files and folders'+color.end)
+	print(color.blued+'14.\t Search a keyword in a file'+color.end)
+	print(color.blued+'15.\t Want to know about your machine'+color.end)
+	print(color.blued+'16.\t Want to see disk information'+color.end)
 	y = float(input(color.purple+'Enter you choice:\t'+color.end))		 
 	if y == 0 :
 		zero()
