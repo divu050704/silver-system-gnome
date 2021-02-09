@@ -59,6 +59,7 @@ def n10():
 		if y1 == 5:
 			os.system('libreoffice --math')
 		c= input(color.blue+'Do you want to continue opening applications in Libreoffice(Y/n):\t'+color.end)
+def n11():
 	os.system('microsoft-edge')
 def n12():
 	os.system('teams')
@@ -86,7 +87,7 @@ def n22():
 	file1 = input(color.purple+'Enter file name to save:\t'+color.end)
 	subprocess.run(['vim',file1])
 def n23():
-c2 = 'Y'
+	c2 = 'Y'
 	while c2 == 'Y':
 		print(color.yellow+'Which Virtual machine you want to run\t'+color.end)
 		print(color.red+'1.\t'+color.green+'Lubuntu'+color.end)
@@ -96,36 +97,35 @@ c2 = 'Y'
 		c2 = input(color.blue+'Do you want to continue running Virtual Machines(Y/n):\t'+color.end)
 def n24():
 	os.system('google-chrome --app=https://web.whatsapp.com/')
-#You can edit these applications as you want 
 ch = 'Y'
 while ch == 'Y':
-	print('Which application You want to open:')
-	print('0.\t Exit')
-	print('1.\t Audacity')	
-	print('2.\t Blender')
-	print('3.\t Calculator')
-	print('4.\t Cheese')
-	print('5.\t Files')
-	print('6.\t Gedit text editor')
-	print('7.\t Google Chrome')
-	print('8.\t htop')
-	print('9.\t Idle ')
-	print('10.\t Libreoffice')
-	print('11.\t Microsoft Edge')
-	print('12.\t Microsoft Teams')
-	print('13.\t Mozilla Firefox')
-	print('14.\t Openshot')
-	print('15.\t Rhythmbox')
-	print('16.\t Settings')
-	print('17.\t Smplayer')
-	print('18.\t Telegram')
-	print('19.\t Terminal')
-	print('20.\t Tweak your ubuntu')	
-	print('21.\t VLC Player')
-	print('22.\t Vim')
-	print('23.\t Virtual Machines')
-	print('24.\t Whatsapp')
-	y = int(input('Enter you Choice:\t'))
+	print(color.yellow+'Which application You want to open:'+color.end)
+	print(color.red+'0.\t'+color.green+'Exit'+color.end)
+	print(color.red+'1.\t'+color.green+'Audacity'+color.end)	
+	print(color.red+'2.\t'+color.green+'Blender'+color.end)
+	print(color.red+'3.\t'+color.green+'Calculator'+color.end)
+	print(color.red+'4.\t'+color.green+'Cheese'+color.end)
+	print(color.red+'5.\t'+color.green+'Files'+color.end)
+	print(color.red+'6.\t'+color.green+'Gedit text editor'+color.end)
+	print(color.red+'7.\t'+color.green+'Google Chrome'+color.end)
+	print(color.red+'8.\t'+color.green+'htop'+color.end)
+	print(color.red+'9.\t'+color.green+'Idle '+color.end)
+	print(color.red+'10.\t'+color.green+'Libreoffice'+color.end)
+	print(color.red+'11.\t'+color.green+'Microsoft Edge'+color.end)
+	print(color.red+'12.\t'+color.green+'Microsoft Teams'+color.end)
+	print(color.red+'13.\t'+color.green+'Mozilla Firefox'+color.end)
+	print(color.red+'14.\t'+color.green+'Openshot'+color.end)
+	print(color.red+'15.\t'+color.green+'Rhythmbox'+color.end)
+	print(color.red+'16.\t'+color.green+'Settings'+color.end)
+	print(color.red+'17.\t'+color.green+'Smplayer'+color.end)
+	print(color.red+'18.\t'+color.green+'Telegram'+color.end)
+	print(color.red+'19.\t'+color.green+'Terminal'+color.end)
+	print(color.red+'20.\t'+color.green+'Tweak your ubuntu'+color.end)	
+	print(color.red+'21.\t'+color.green+'VLC Player'+color.end)
+	print(color.red+'22.\t'+color.green+'Vim'+color.end)
+	print(color.red+'23.\t'+color.green+'Virtual Machines'+color.end)
+	print(color.red+'24.\t'+color.green+'Whatsapp'+color.end)
+	y = int(input(color.purple+'Enter you Choice:\t'+color.end))
 	if y == 0:
 		exit()
 	if y == 1:
