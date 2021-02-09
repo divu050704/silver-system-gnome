@@ -1,5 +1,17 @@
 import os
 import subprocess
+class color:
+   purple = '\033[95m'
+   cyan = '\033[96m'
+   darkcyan = '\033[36m'
+   blue = '\033[94m'
+   green = '\033[92m'
+   yellow = '\033[93m'
+   red = '\033[91m'
+   silver = '\033[3;30;47m'
+   bold = '\033[1m'
+   underline = '\033[4m'
+   end = '\033[0m'
 ch = 'Y'
 def zero():
 	exit()
@@ -52,26 +64,34 @@ def sixteen():
 if ch == 'n':
 	exit()
 while ch == 'Y':
-	print('0.\t Exit')
-	print('0.1\t See number of lines in programs')
-	print('0.2\t Want to see bash codes for following programs')
-	print('1.\t See boot time')
-	print('2.\t Do a system upgrade')
-	print('3.\t Ping any website')
-	print('4.\t Search devices connected to wifi')
-	print('5.\t Install a new application')
-	print('6.\t Run an application')
-	print('7.\t Remove an application')
-	print('8.\t Change your working directory')
-	print('9.\t Want to see files in a particular folder')
-	print('10.\t Want to remove files and folders')
-	print('11.\t Move a file or folder')
-	print('12.\t Copy foldes and files from one place to another')
-	print('13.\t Locate files and folders')
-	print('14.\t Search a keyword in a file')
-	print('15.\t Want to know about your machine')
-	print('16.\t Want to see disk information')
-	y = float(input('Enter you choice:\t'))		 
+	print(color.bold+color.silver+'\t\t                  UUUUUUUUUU            '+color.end)
+	print(color.bold+color.silver+'\t\t            UUUUUU|UUU                  '+color.end)
+	print(color.bold+color.silver+'\t\t            |     |                     '+color.end)
+	print(color.bold+color.silver+'\t\t            |      UUUUUUUUUU           '+color.end)
+	print(color.bold+color.silver+'\t\t             UUUUUUUUU     |            '+color.end)
+	print(color.bold+color.silver+'\t\t                     |     |            '+color.end)
+	print(color.bold+color.silver+'\t\t                   UU|UUUUUU            '+color.end)
+	print(color.bold+color.silver+'\t\t             UUUUUUUUUU                 '+color.end)
+	print(color.green+'0.\t Exit'+color.end)
+	print(color.green+'0.1\t See number of lines in programs'+color.end)
+	print(color.green+'0.2\t Want to see code for below programs'+color.end)
+	print(color.green+'1.\t See boot time'+color.end)
+	print(color.green+'2.\t Do a system upgrade'+color.end)
+	print(color.green+'3.\t Ping any website'+color.end)
+	print(color.green+'4.\t Search devices connected to wifi'+color.end)
+	print(color.green+'5.\t Install a new application'+color.end)
+	print(color.green+'6.\t Run an application'+color.end)
+	print(color.green+'7.\t Remove an application'+color.end)
+	print(color.green+'8.\t Change your working directory'+color.end)
+	print(color.green+'9.\t Want to see files in a particular folder'+color.end)
+	print(color.green+'10.\t Want to remove files and folders'+color.end)
+	print(color.green+'11.\t Move files and folders'+color.end)
+	print(color.green+'12.\t Copy files and folders'+color.end)
+	print(color.green+'13.\t Locate files and folders'+color.end)
+	print(color.green+'14.\t Search a keyword in a file'+color.end)
+	print(color.green+'15.\t Want to know about your machine'+color.end)
+	print(color.green+'16.\t Want to see disk information'+color.end)
+	y = float(input(color.purple+'Enter you choice:\t'+color.end))		 
 	if y == 0 :
 		zero()
 	if y == 0.1:
