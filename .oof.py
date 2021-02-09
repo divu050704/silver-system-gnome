@@ -8,60 +8,69 @@ class color:
    blued = '\033[92m'
    yellow = '\033[93m'
    red = '\033[91m'
-   silver = '\033[3;30;47m'
-   bold = '\033[1m'
+   silver = '\033[1;30;40m'
+   orange = '\033[33m'
    green = '\033[32m'
+   bold = '\033[1m'
    underline = '\033[4m'
    end = '\033[0m'
 ch = 'Y'
 def zero():
 	exit()
 def zero1():
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 count.py')
-def zero2():
-	os.system('python3 knowledge.py')
 def one():
-	
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 boot.py')
 def two():
-	
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 do.py')
 def three():
-	
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 ping.py')
 def four():
-	
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 wifi.py')
 def five():
-	
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 install.py')
 def six():
-	
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 app.py')
 def seven():
-	
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 remove.py')
 def eight():
-	
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 dir.py')
 def nine():
-	
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 file.py')
 def ten():
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 del.py')
+def zero2():
+	os.chdir('/home/divyanshu/programs')
+	os.system('python3 knowledge.py')
 def eleven():
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 move.py')
 def twelve():
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 copy.py')
 def thirteen():
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 locate.py')
 def fourteen():
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 search.py')
 def fifteen():
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 about.py')
 def sixteen():
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 disk-info.py')
-
 if ch == 'n':
 	exit()
 while ch == 'Y':
@@ -92,7 +101,7 @@ while ch == 'Y':
 	print(color.red+'14.\t'+color.green+'Search a keyword in a file'+color.end)
 	print(color.red+'15.\t'+color.green+'Want to know about your machine'+color.end)
 	print(color.red+'16.\t'+color.green+'Want to see disk information'+color.end)
-	y = float(input(color.purple+'Enter you choice:\t'+color.end))	 
+	y = float(input(color.purple+'Enter you choice:\t'+color.end))		 
 	if y == 0 :
 		zero()
 	if y == 0.1:
@@ -131,4 +140,4 @@ while ch == 'Y':
 		fifteen()
 	if y == 16:
 		sixteen()
-	ch = input('\nDo you want to continue main program(Y/n):\t')
+	ch = input(color.orange+color.bold+'\nDo you want to continue main program(Y/n):\t'+color.end)
