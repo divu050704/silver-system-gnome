@@ -1,5 +1,19 @@
 import os
 import subprocess
+class color():
+   purple = '\033[95m'
+   cyan = '\033[96m'
+   darkcyan = '\033[36m'
+   blue = '\033[94m'
+   blued = '\033[92m'
+   yellow = '\033[93m'
+   red = '\033[91m'
+   silver = '\033[3;30;47m'
+   orange= '\033[31;43m'
+   bold = '\033[1m'
+   green = '\033[32m'
+   underline = '\033[4m'
+   end = '\033[0m'
 def n1():
 	os.system('audacity')
 def n2():
@@ -11,29 +25,29 @@ def n4():
 def n5():
 	os.system('nautilus --new-window')
 def n6():
-	path  = input('Enter path to open file:\t')
+	path  = input(color.purple+'Enter path to open file:\t'+color.end)
 	os.chdir(path)
-	file1 =  input('Enter file name:\t')
+	file1 =  input(color.purple+'Enter file name:\t'+color.end)
 	run =  subprocess.run(['gedit',file1])
 def n7():
 	os.system('google-chrome')
 def n8():
 	os.system('htop')
 def n9():
-	path = input('Enter the path where you want to save file:\t')
+	path = input(color.purple+'Enter the path where you want to save file:\t'+color.end)
 	os.chdir(path)
-	file1= input('Enter the filename you want to save:\t')
+	file1= input(color.purple+'Enter the filename you want to save:\t'+color.end)
 	subprocess.run(['idle',file1])
 def n10():
-	print('0.\t Exit')
-	print('1.\t Documents')
-	print('2.\t Excel')
-	print('3.\t Powerpoint')
-	print('4.\t One note')
-	print('5.\t Libreoffice Math')
 	c = 'Y'
 	while c == 'Y':
-		y1  = int(input('Enter your choice:\t'))
+		print(color.red+'0.\t'+color.green+'Exit'+color.end)
+		print(color.red+'1.\t'+color.green+'Documents'+color.end)
+		print(color.red+'2.\t'+color.green+'Excel'+color.end)
+		print(color.red+'3.\t'+color.green+'Powerpoint'+color.end)
+		print(color.red+'4.\t'+color.green+'One note'+color.end)
+		print(color.red+'5.\t'+color.green+'Libreoffice Math'+color.end)
+		y1  = int(input(color.purple+'Enter your choice:\t'+color.end))
 		if y1 == 1:
 			os.system('libreoffice --writer')
 		if y1 == 2:
@@ -44,8 +58,7 @@ def n10():
 			os.system('libreoffice --draw')
 		if y1 == 5:
 			os.system('libreoffice --math')
-		c= input('Do you want to continue opening applications in Libreoffice(Y/n):\t')
-def n11():
+		c= input(color.blue+'Do you want to continue opening applications in Libreoffice(Y/n):\t'+color.end)
 	os.system('microsoft-edge')
 def n12():
 	os.system('teams')
@@ -68,19 +81,19 @@ def n20():
 def n21():
 	os.system('/usr/bin/vlc --started-from-file')
 def n22():
-	path = input('Enter path to save file:\t')
+	path = input(color.red+'Enter path to save file:\t'+color.end)
 	os.chdir(path)
-	file1 = input('Enter file name to save:\t')
+	file1 = input(color.purple+'Enter file name to save:\t'+color.end)
 	subprocess.run(['vim',file1])
 def n23():
-	c2 = 'Y'
+c2 = 'Y'
 	while c2 == 'Y':
-		print('Which Virtual machine you want to run\t')
-		print('1.\t Lubuntu')
-		c3 = int(input('Enter your choice:\t'))
+		print(color.yellow+'Which Virtual machine you want to run\t'+color.end)
+		print(color.red+'1.\t'+color.green+'Lubuntu'+color.end)
+		c3 = int(input(color.purple+'Enter your choice:\t'+color.end))
 		if c3 == 1:
 			os.system('VirtualBoxVM --startvm Lubuntu')
-		c2 = input('Do you want to continue running Virtual Machines(Y/n):\t')
+		c2 = input(color.blue+'Do you want to continue running Virtual Machines(Y/n):\t'+color.end)
 def n24():
 	os.system('google-chrome --app=https://web.whatsapp.com/')
 #You can edit these applications as you want 
@@ -163,4 +176,4 @@ while ch == 'Y':
 		n23()
 	if y == 24:
 		n24()
-	ch = input('Do you want to continue opening applications(Y/n):\t')
+	ch = input(color.orange+color.bold+'Do you want to continue opening applications(Y/n):\t'+color.end)
