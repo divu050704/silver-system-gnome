@@ -70,13 +70,7 @@ for i in colist9:
 	if i:
 		counter9 += 1
 #############################################################
-file10 = open('history.py','r')
-counter10 = 0
-content10 = file10.read()
-colist10 = content10.split('\n')
-for i in colist10:
-	if i:
-		counter10 += 1
+
 #######################################################
 file11 = open('install.py','r')
 counter11 = 0
@@ -150,6 +144,6 @@ for i in colist19:
 	if i:
 		counter19 += 1
 ###############################################################
-total = counter1+counter2+counter3+counter4+counter5+counter6+counter7+counter8+counter9+counter10+counter11+counter12+counter13+counter14+counter15+counter16+counter17+counter18+counter19
+total = counter1+counter2+counter3+counter4+counter5+counter6+counter7+counter8+counter9+counter11+counter12+counter13+counter14+counter15+counter16+counter17+counter18+counter19
 total1 = total + 156
 print('\nTotal number of lines in all the programs:\t',total1)
