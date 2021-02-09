@@ -4,7 +4,7 @@ ch = 'Y'
 def zero():
 	exit()
 def zero1():
-	print(282)
+	os.system('python3 count.py')
 def zero2():
 	os.system('python3 knowledge.py')
 def one():
