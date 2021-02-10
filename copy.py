@@ -23,6 +23,6 @@ while c == "Y":
 	subprocess.run(['ls', dest])
 	file2 = input(color.purple+'Enter destination folder name from root:\t'+color.end)
 	subprocess.run(['sudo','cp',file1,file2])
-	c = input(color.orange+'Do you want to continue moving files(Y/n):\t'+color.end)
+	c = input(color.blue+'Do you want to continue moving files(Y/n):\t'+color.end)
 
 
