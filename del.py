@@ -51,4 +51,4 @@ while y == 'Y':
 				folder = input(color.yellow+'Enter folder name:\t'+color.end)
 				subprocess.run(['sudo','rm','-r',folder])
 			c2 = input(color.purple+'Do you want to continue removing folder(Y/n):\t'+color.end)					
-	y = input(color.orange+color.bold+'Do you want to continue removing files and folders(Y/n):\t'+color.end)
+	y = input(color.blue+color.bold+'Do you want to continue removing files and folders(Y/n):\t'+color.end)
