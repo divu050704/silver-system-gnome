@@ -107,7 +107,7 @@ data17 = file17.read()
 words17 = data17.split()
 final17 = len(words17)
 ###############################################################
-file18 = open('/home/divyanshu/.oof.py','rt')
+file18 = open('.oof.py','rt')
 data18 = file18.read()
 words18 = data18.split()
 final18 = len(words18)
