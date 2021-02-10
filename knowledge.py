@@ -23,7 +23,7 @@ while c == 'Y':
 	if ch == 1:
 		print('\nCode is:\t','$ systemd-analyze')	
 		print('\nFor blame:\t','$ systemd-analyze blame')
-		print('\nFor cahin:\t','$ systemd-analyze blame-chain')
+		print('\nFor chain:\t','$ systemd-analyze blame-chain')
 	if ch == 2:
 		print('\n$ sudo apt update && sudo apt lsit --upgradable -a')
 		print('If upgrade:- $ sudo apt upgrade')
