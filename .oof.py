@@ -30,7 +30,7 @@ def one():
 	
 	os.system('python3 boot.py')
 def two():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 do.py')
 def three():
 	
