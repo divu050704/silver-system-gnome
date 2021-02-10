@@ -18,58 +18,58 @@ ch = 'Y'
 def zero():
 	exit()
 def zero1():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 count.py')
 def one():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 boot.py')
 def two():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 do.py')
 def three():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 ping.py')
 def four():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 wifi.py')
 def five():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 install.py')
 def six():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 app.py')
 def seven():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 remove.py')
 def eight():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 dir.py')
 def nine():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 file.py')
 def ten():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 del.py')
 def zero2():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 knowledge.py')
 def eleven():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 move.py')
 def twelve():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 copy.py')
 def thirteen():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 locate.py')
 def fourteen():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 search.py')
 def fifteen():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 about.py')
 def sixteen():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 disk-info.py')
 if ch == 'n':
 	exit()
