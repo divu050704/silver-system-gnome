@@ -20,11 +20,17 @@ def zero():
 def zero1():
 	
 	os.system('python3 count.py')
+def zero2():
+	
+	os.system('python3 knowledge.py')
+def zero3():
+	os.chdir('/home/divyanshu/programs')
+	os.system('python3 no-of-words.py')
 def one():
 	
 	os.system('python3 boot.py')
 def two():
-	
+	os.chdir('/home/divyanshu/programs')
 	os.system('python3 do.py')
 def three():
 	
@@ -33,58 +39,57 @@ def four():
 	
 	os.system('python3 wifi.py')
 def five():
-	
+
 	os.system('python3 install.py')
 def six():
-	
+
 	os.system('python3 app.py')
 def seven():
-	
+
 	os.system('python3 remove.py')
 def eight():
-	
+
 	os.system('python3 dir.py')
 def nine():
-	
+
 	os.system('python3 file.py')
 def ten():
-	
+
 	os.system('python3 del.py')
-def zero2():
-	
-	os.system('python3 knowledge.py')
+
 def eleven():
-	
+
 	os.system('python3 move.py')
 def twelve():
-	
+
 	os.system('python3 copy.py')
 def thirteen():
-	
+
 	os.system('python3 locate.py')
 def fourteen():
-	
+
 	os.system('python3 search.py')
 def fifteen():
-	
+
 	os.system('python3 about.py')
 def sixteen():
-	
+
 	os.system('python3 disk-info.py')
 if ch == 'n':
 	exit()
 while ch == 'Y':
-	print(color.bold+color.cyan+'\t\t                  UUUUUUUUUU            '+color.end)
-	print(color.bold+color.cyan+'\t\t            UUUUUU|UUU                  '+color.end)
-	print(color.bold+color.cyan+'\t\t            |     |                     '+color.end)
-	print(color.bold+color.cyan+'\t\t            |      UUUUUUUUUU           '+color.end)
-	print(color.bold+color.cyan+'\t\t             UUUUUUUUU     |            '+color.end)
-	print(color.bold+color.cyan+'\t\t                     |     |            '+color.end)
-	print(color.bold+color.cyan+'\t\t                   UU|UUUUUU            '+color.end)
-	print(color.bold+color.cyan+'\t\t             UUUUUUUUUU                 '+color.end)
+	print(color.bold+color.cyan+'\t\t\t                  UUUUUUUUUU            '+color.end)
+	print(color.bold+color.cyan+'\t\t\t            UUUUUU|UUU                  '+color.end)
+	print(color.bold+color.cyan+'\t\t\t            |     |                     '+color.end)
+	print(color.bold+color.cyan+'\t\t\t            |      UUUUUUUUUU           '+color.end)
+	print(color.bold+color.cyan+'\t\t\t             UUUUUUUUU     |            '+color.end)
+	print(color.bold+color.cyan+'\t\t\t                     |     |            '+color.end)
+	print(color.bold+color.cyan+'\t\t\t                   UU|UUUUUU            '+color.end)
+	print(color.bold+color.cyan+'\t\t\t             UUUUUUUUUU                 '+color.end)
 	print(color.red+'0.\t'+color.green+'Exit'+color.end)
 	print(color.red+'0.1\t'+color.green+'See number of lines in programs'+color.end)
 	print(color.red+'0.2\t'+color.green+'Want to see code for below programs'+color.end)
+	print(color.red+'0.3\t'+color.green+'Want to see number of words in the following programs'+color.end)
 	print(color.red+'1.\t'+color.green+'See boot time'+color.end)
 	print(color.red+'2.\t'+color.green+'Do a system upgrade'+color.end)
 	print(color.red+'3.\t'+color.green+'Ping any website'+color.end)
@@ -108,6 +113,8 @@ while ch == 'Y':
 		zero1()
 	if y == 0.2:
 		zero2()
+	if y == 0.3:
+		zero3()
 	if y==1:
 		one()
 	if y==2:
@@ -140,4 +147,4 @@ while ch == 'Y':
 		fifteen()
 	if y == 16:
 		sixteen()
-	ch = input(color.orange+color.bold+'\nDo you want to continue main program(Y/n):\t'+color.end)
+	ch = input(color.yellow+color.bold+'\nDo you want to continue main program(Y/n):\t'+color.end)
