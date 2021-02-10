@@ -24,7 +24,7 @@ def zero2():
 	
 	os.system('python3 knowledge.py')
 def zero3():
-	os.chdir('/home/divyanshu/programs')
+	
 	os.system('python3 no-of-words.py')
 def one():
 	
