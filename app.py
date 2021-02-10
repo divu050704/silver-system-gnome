@@ -176,4 +176,4 @@ while ch == 'Y':
 		n23()
 	if y == 24:
 		n24()
-	ch = input(color.orange+color.bold+'Do you want to continue opening applications(Y/n):\t'+color.end)
+	ch = input(color.blue+color.bold+'Do you want to continue opening applications(Y/n):\t'+color.end)
