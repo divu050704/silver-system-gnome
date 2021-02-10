@@ -27,4 +27,4 @@ while ch == 'Y':
 		os.system('df -m')
 	if y == 2:
 		os.system('df')
-	ch = input(color.orange+color.bold+'Do you want to continue seeing disk informations in different formats(Y/n):\t'+color.end)
+	ch = input(color.blue+color.bold+'Do you want to continue seeing disk informations in different formats(Y/n):\t'+color.end)
