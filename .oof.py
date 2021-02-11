@@ -76,6 +76,8 @@ def fifteen():
 def sixteen():
 
 	os.system('python3 disk-info.py')
+def seventeen():
+	os.system('python3 rename.py')
 if ch == 'n':
 	exit()
 while ch == 'Y':
@@ -107,6 +109,7 @@ while ch == 'Y':
 	print(color.red+'14.\t'+color.green+'Search a keyword in a file'+color.end)
 	print(color.red+'15.\t'+color.green+'Want to know about your machine'+color.end)
 	print(color.red+'16.\t'+color.green+'Want to see disk information'+color.end)
+	print(color.red+'17.\t'+color.green+'Rename a file'+color.end)
 	y = float(input(color.purple+'Enter you choice:\t'+color.end))		 
 	if y == 0 :
 		zero()
@@ -148,4 +151,6 @@ while ch == 'Y':
 		fifteen()
 	if y == 16:
 		sixteen()
+	if y == 17:
+		seventeen()
 	ch = input(color.yellow+color.bold+'\nDo you want to continue main program(Y/n):\t'+color.end)
