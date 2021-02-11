@@ -16,13 +16,12 @@ class color():
    end = '\033[0m'
 c = 'Y'
 while c == "Y":
-	path = input(color.red+'Enter path from root to the parent directory of the file:\t'+color.end)
-	subprocess.run(['ls', path])
-	file1 = input(color.purple+'Enter file name from root:\t'+color.end)
-	dest = input(color.red+'Enter destination of file:\t'+color.end)
-	subprocess.run(['ls', dest])
-	file2 = input(color.purple+'Enter destination folder name from root:\t'+color.end)
-	subprocess.run(['sudo','cp',file1,file2])
-	c = input(color.blue+'Do you want to continue moving files(Y/n):\t'+color.end)
-
-
+	path = input(color.purple+'Enter path to parent directory:\t'+color.end)
+	os.chdir(path)
+	os.system('ls')
+	file1= input(color.darkcyan+'Enter file name you want to copy:\t'+color.end)
+	target = input(color.purple+'Enter path to destination:\t'+color.end)
+	subprocess.run(['cp',file1,target])
+	subprocess.run(['ls',target])
+	c = input(color.bold+color.blue+'Do you want to continue coping files(Y/n):\t') 
+	
