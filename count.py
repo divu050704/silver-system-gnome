@@ -39,7 +39,7 @@ for i in colist3:
 file4 = open('copy.py','r')
 counter4 = 0
 content4 = file4.read()
-colist4 = content4.split()
+colist4 = content4.split('\n')
 for i in colist4:
 	if i:
 		counter4+=1
@@ -150,7 +150,7 @@ for i in colist18:
 	if i:
 		counter18 += 1
 ###############################################################
-file19 = open('/home/divyanshu/.oof.py','r')
+file19 = open('.oof.py','r')
 counter19 = 0
 content19 = file19.read()
 colist19 = content19.split('\n')
