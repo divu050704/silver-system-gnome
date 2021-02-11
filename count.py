@@ -159,5 +159,5 @@ for i in colist19:
 		counter19 += 1
 ###############################################################
 total = counter1+counter2+counter3+counter4+counter5+counter6+counter7+counter8+counter9+counter11+counter12+counter13+counter14+counter15+counter16+counter17+counter18+counter19
-total1 = total + 149
+total1 = total + 163
 print(color.red+color.bold+'\nTotal number of lines in all the programs:\t'+color.end,total1)
