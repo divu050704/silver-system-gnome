@@ -16,12 +16,14 @@ class color():
    end = '\033[0m'
 c = 'Y'
 while c == "Y":
-	path = input(color.purple+'Enter path to parent directory:\t'+color.end)
+	path = input(color.purple+'Enter path to parent directory:\t'+color.yellow)
 	os.chdir(path)
+	print(color.red+'Files in',path+color.green)
 	os.system('ls')
-	file1= input(color.darkcyan+'Enter file name you want to copy:\t'+color.end)
-	target = input(color.purple+'Enter path to destination:\t'+color.end)
+	file1= input(color.darkcyan+'Enter file name you want to copy:\t'+color.yellow)
+	target = input(color.purple+'Enter path to destination:\t'+color.yellow)
 	subprocess.run(['cp',file1,target])
+	print(color.red+'Files in ',target+color.green)
 	subprocess.run(['ls',target])
-	c = input(color.bold+color.blue+'Do you want to continue coping files(Y/n):\t') 
+	c = input(color.bold+color.blue+'Do you want to continue coping files(Y/n):\t'+color.end) 
 	
