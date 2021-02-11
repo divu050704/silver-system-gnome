@@ -16,6 +16,7 @@ class color:
    end = '\033[0m'
 ch = 'Y'
 def zero():
+	print('\nExiting..........')
 	exit()
 def zero1():
 	
