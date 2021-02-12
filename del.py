@@ -28,27 +28,27 @@ while y == 'Y':
 	if ch == 1:
 		c = 'Y'
 		while c == 'Y':
-			path = input(color.darkcyan+'Enter path to file:\t'+color.end)
-			print(color.purple+'Files in '+color.end,path,':-')
+			path = input(color.darkcyan+'Enter path to file:\t'+color.green)
+			print(color.purple+'Files in ',path,':-'+color.yellow)
 			os.chdir(path)
 			subprocess.run(['ls'])
-			c1 = input(color.darkcyan+'Do you want to continue removing file(Y/n):\t'+color.end)
+			c1 = input(color.darkcyan+'Do you want to continue removing file(Y/n):\t'+color.green)
 			if c1 == 'Y':
 				os.chdir(path)
-				file1 = input(color.yellow+'Enter file name:\t'+color.end)
-				subprocess.run(['sudo','rm','file1'])
-			c = input(color.purple+'Do you want to continue removing files(Y/n):\t'+color.end)
+				file1 = input(color.yellow+'Enter file name:\t'+color.green)
+				subprocess.run(['sudo','rm',file1])
+			c = input(color.purple+'Do you want to continue removing files(Y/n):\t'+color.green)
 	if ch == 2:
 		c2 = 'Y'
 		while c2 == 'Y':
-			path1 = input(color.darkcyan+'Enter path to folder:\t'+color.end)
-			print(color.purple+'Folders an files in'+color.end,path1,':-')
+			path1 = input(color.darkcyan+'Enter path to folder:\t'+color.green)
+			print(color.purple+'Folders an files in',path1,':-'+color.yellow)
 			os.chdir(path1)
 			os.system('ls')
 			c3 = input(color.darkcyan+'Do you want to continue(Y/n):\t'+color.end) 
 			if c3 == 'Y':
 				os.chdir(path1)
-				folder = input(color.yellow+'Enter folder name:\t'+color.end)
+				folder = input(color.yellow+'Enter folder name:\t'+color.green)
 				subprocess.run(['sudo','rm','-r',folder])
-			c2 = input(color.purple+'Do you want to continue removing folder(Y/n):\t'+color.end)					
-	y = input(color.blue+color.bold+'Do you want to continue removing files and folders(Y/n):\t'+color.end)
+			c2 = input(color.purple+'Do you want to continue removing folder(Y/n):\t'+color.green)					
+	y = input(color.blue+color.bold+'Do you want to continue removing files and folders(Y/n):\t'+color.green)
