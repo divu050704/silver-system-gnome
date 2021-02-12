@@ -80,6 +80,8 @@ def seventeen():
 	os.system('python3 rename.py')
 def eighteen():
     os.system('python3 process.py')
+def nineteen():
+	os.system('python3 per.py')
 if ch == 'n':
 	exit()
 while ch == 'Y':
@@ -113,6 +115,7 @@ while ch == 'Y':
 	print(color.red+'16.\t'+color.green+'Want to see disk information'+color.end)
 	print(color.red+'17.\t'+color.green+'Rename a file'+color.end)
 	print(color.red+'18.\t'+color.green+'Check running process and kill them'+color.end)
+	print(color.red+'19.\t'+color.green+'Change permissions of a file'+color.end)
 	y = float(input(color.purple+'Enter you choice:\t'+color.red))		 
 	if y == 0 :
 		zero()
@@ -158,4 +161,6 @@ while ch == 'Y':
 		seventeen()
 	if y == 18:
 		eighteen()
+	if y == 19:
+		nineteen()
 	ch = input(color.yellow+color.bold+'\nDo you want to continue main program(Y/n):\t'+color.orange)
