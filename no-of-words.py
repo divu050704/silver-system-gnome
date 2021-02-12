@@ -1,3 +1,4 @@
+# Program to find no. of words in all the programs
 file1 = open('about.py','rt')
 data1 = file1.read()
 words1 = data1.split()
@@ -117,6 +118,10 @@ data19 = file19.read()
 words19 = data19.split()
 final19 = len(words19)
 ################################################################
-total = final1+final2+final3+final4+final5+final6+final7+final8+final9+final11+final12+final13+final14+final15+final16+final17+final18+final19
-total1 = total + 290
+file20 = open('per.py','rt')
+data20 = file20.read()
+words20 = data20.split()
+final20 = len(words20)
+total = final1+final2+final3+final4+final5+final6+final7+final8+final9+final11+final12+final13+final14+final15+final16+final17+final18+final19+final20
+total1 = total + 304 # Added for this file also
 print(color.red+color.bold+'\nTotal number of words in all the programs:\t'+color.end,total1)
