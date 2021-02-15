@@ -2,6 +2,6 @@
 Version=0.1
 Name=Silver-System
 Exec=main.sh
-Icon=drawing-1.svg
+Icon=settings.png
 Type=Application
 Terminal=false
