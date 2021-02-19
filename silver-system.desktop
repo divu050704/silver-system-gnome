@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=0.1
 Name=Silver-System
-Exec=main.sh
-Icon=settings.png
+Exec=/usr/.silver-system-programs/main.sh
+Icon=/usr/.silver-system-programs/settings.png
 Type=Application
 Terminal=false
