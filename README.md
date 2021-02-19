@@ -21,9 +21,7 @@
 ## Use 
 #### 1. Open terminal
 #### 2. Go to silver-system directory
-#### 3. Go to nautilus => Click 3-vertical dots => Preference => Behaviour => For executible files click radio button 'Run Them' | Right click main.sh => Properties => Permissions => Tick Allow executing file as program
-#### 4. Run (First time) 
-     $ chmod +x main.sh && ./main.sh
-#### 5. Now you can run whenever you want or create desktop file as given in silver-system.desktop:- 
-      $./main.sh
+#### 3. Go to nautilus => Click 3-vertical dots => Preference => Behaviour => For executible files click radio button 'Run Them'
+#### 4. Install
+     $ chmod +x install.sh && ./install.sh
 ### Done | Have fun 
