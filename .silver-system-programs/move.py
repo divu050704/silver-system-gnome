@@ -16,13 +16,14 @@ class color:
    end = '\033[0m'
 c = 'Y'
 while c == "Y":
-    path = input(color.purple+'Enter path to parent directory to the file:\t'+color.end)
-    os.chdir(path)
-    os.system('ls')
-    file1 = input(color.darkcyan+'Enter file name you want to move:\t'+color.end)
-    dest = input(color.purple+'Enter destination of file from root:\t'+color.end)
-    subprocess.run(['mv',file1,dest])
-    os.chdir(dest)
-    print(color.red+'\nFile changed:-'+color.end)
-    os.system('ls')
-    c= input(color.bold+color.blue+'Do you want to continue moving file(Y/n):\t')
+   path = input(color.purple+'Enter path to parent directory to the file:\t'+color.yellow)
+   os.chdir(path)
+   os.system('ls')
+   file1 = input(color.darkcyan+'Enter file name you want to move:\t'+color.yellow)
+   dest = input(color.purple+'Enter destination of file from root:\t'+color.yellow)
+   subprocess.run(['mv',file1,dest])
+   os.chdir(dest)
+   print(color.red+'\nFile moved:-'+color.yellow)
+   os.system('ls')
+   c = input(color.red+'Do you want to continue moving files and folders:\t'+color.yellow)
+   
