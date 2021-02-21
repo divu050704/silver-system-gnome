@@ -1,3 +1,7 @@
+from abc import get_cache_token
+from typing import Collection
+
+
 c = 'Y'
 class color():
    purple = '\033[95m'
@@ -31,13 +35,16 @@ while c == 'Y':
 	print(color.red+'14.\t'+color.green+'Search a keyword in a file'+color.end)
 	print(color.red+'15.\t'+color.green+'Want to know about your machine'+color.end)
 	print(color.red+'16.\t'+color.green+'Want to see disk information'+color.end)
+	print(color.red+'17.\t'+color.green+'Rename a file'+color.end)
+	print(color.red+'18.\t'+color.green+'Check running process and kill them'+color.end)
+	print(color.red+'19.\t'+color.green+'Change permissions of a file'+color.end)
 	ch = float(input(color.purple+'Enter you choice:\t'+color.end))	
 	if ch == 0:
 		exit()
 	if ch == 1:
 		print(color.yellow+'\nCode is:\t',color.blued+'$ systemd-analyze'+color.end)	
 		print(color.yellow+'\nFor blame:\t',color.blued+'$ systemd-analyze blame'+color.end)
-		print(color.yellow+'\nFor cahin:\t',color.blued+'$ systemd-analyze critical-chain'+color.end)
+		print(color.yellow+'\nFor chain:\t',color.blued+'$ systemd-analyze critical-chain'+color.end)
 	if ch == 2:
 		print(color.blued+'\n$ sudo apt update && sudo apt lsit --upgradable -a'+color.end)
 		print(color.yellow+'If upgrade:-\t'+color.blued+'$ sudo apt upgrade'+color.end)
@@ -202,4 +209,56 @@ while c == 'Y':
 			if d == 2:
 				print(color.blue+'\n$ sudo rm -r <path><folder>'+color.end)
 			k = input(color.purple+'\nDo you want to continue see code for remove of files and folders(Y/n):\t'+color.end)
-	c = input(color.darkcyan+color.bold+'\nDo you want to continue looking for codes(Y/n):\t'+color.end) 
+	if ch == 11:
+		print(color.blued+'\n$ mv <filename> <destination>'+color.end)		
+	if ch == 12:
+		print(color.red+'0.\t'+color.green+'Exit'+color.end)
+		print(color.red+'1.\t'+color.green+'Files'+color.end)
+		print(color.red+'2.\t'+color.green+'Folders'+color.end)
+		k = int(input(color.purple+'Enter your choice:\t'+color.yellow))
+		if k == 1:
+			print(color.blued+'\n$ cp <filename> <target-directory>')
+		if k == 2:
+			print(color.blued+'\n$ cp -r <foldername> <target-directory>'+color.end)
+	if ch == 13:
+		print(color.blued+'\n$ locate <filename>')
+	if ch == 14:
+		print(color.blued+'\n$ grep <keyword> <filename>')
+	if ch == 15:
+		print(color.blued+'\n$ neofetch ')
+	if ch == 16:
+		print(color.red+'0.\t'+color.green+'Exit'+color.end)
+		print(color.red+'1.\t'+color.green+'Megabyte'+color.end)
+		print(color.red+'2.\t'+color.green+'Bytes'+color.end)
+		y = int(input(color.purple+'Enter your choice:\t'+color.yellow))
+		if y == 1:
+			print(color.blued+'\n$ df -m')
+		if y == 2:
+			print(color.blued+'\n$ df')
+	if ch == 17:
+		print(color.blued+'\n$ mv <old-filename> <new-filename>')
+	if ch == 18:
+		print(color.green+'\nChecking process:\t'+color.blued+'$ ps -ef'+color.end)
+		print(color.green+'If killed:\t'+color.blued+'kill <pid>'+color.end)
+	if ch == 19:
+		y = 'Y'
+		while y == 'Y':
+			print(color.red+'0.\t'+color.green+'Exit'+color.end)
+			print(color.red+'1.\t'+color.green+'Change permission to read-only'+color.end)
+			print(color.red+'2.\t'+color.green+'Change permission to write-only'+color.end)
+			print(color.red+'3.\t'+color.green+'Change permission to read and write'+color.end)
+			print(color.red+'4.\t'+color.green+'Change permission to execute-only'+color.end)
+			print(color.red+'5.\t'+color.green+'Change permission to read, write and execute(Superuser)'+color.end)
+			c = int(input(color.purple+'Enter your choice:\t'+color.yellow))
+			if c == 1:
+				print(color.blued+'\n$ chmod +r-w-x <filename>')
+			if c == 2:
+				print(color.blued+'\n$ chmod -r+w-x <filename>')
+			if c == 3:
+				print(color.blued+'\n$ chmod +r+w-x <filename>')
+			if c == 4:
+				print(color.blued+'\n$ chmod -r-w+x <filename>')	
+			if c == 5:
+				print(color.blued+'\n$ chmod +r+w+x <filename>')
+			y = input(color.cyan+'\nDo you want to cotinue seeing code for changing permissions(Y/n):\t'+color.yellow)		
+	c = input(color.darkcyan+color.bold+'\nDo you want to continue looking for codes(Y/n):\t'+color.yellow) 
