@@ -19,6 +19,7 @@ class color():
    end = '\033[0m'
 
 while c == 'Y':
+	print(color.red+'0.\t'+color.green+'Exit'+color.end)
 	print(color.red+'1.\t'+color.green+'See boot time'+color.end)
 	print(color.red+'2.\t'+color.green+'Do a system upgrade'+color.end)
 	print(color.red+'3.\t'+color.green+'Ping any website'+color.end)
@@ -38,6 +39,7 @@ while c == 'Y':
 	print(color.red+'17.\t'+color.green+'Rename a file'+color.end)
 	print(color.red+'18.\t'+color.green+'Check running process and kill them'+color.end)
 	print(color.red+'19.\t'+color.green+'Change permissions of a file'+color.end)
+	print(color.red+'20.\t'+color.green+'Locate a specific type of file'+color.end)
 	ch = float(input(color.purple+'Enter you choice:\t'+color.end))	
 	if ch == 0:
 		exit()
@@ -261,4 +263,6 @@ while c == 'Y':
 			if c == 5:
 				print(color.blued+'\n$ chmod +r+w+x <filename>')
 			y = input(color.cyan+'\nDo you want to cotinue seeing code for changing permissions(Y/n):\t'+color.yellow)		
+	if ch == 20:
+		print(color.blued+'\n$ locate *.<filetype>'+color.end)
 	c = input(color.darkcyan+color.bold+'\nDo you want to continue looking for codes(Y/n):\t'+color.yellow) 

@@ -1,2 +1,1 @@
-gnome-terminal  -- python3 /usr/.silver-system-programs/.oof.py
-
+gnome-terminal  --maximize -- python3 /usr/.silver-system-programs/.oof.py

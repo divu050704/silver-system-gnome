@@ -84,17 +84,27 @@ def eighteen():
 def nineteen():
 	os.chdir('/usr/.silver-system-programs')
 	os.system('python3 per.py')
+def twenty():
+	os.chdir('/usr/.silver-system-programs')
+	os.system('python3 locate-file.py')
 if ch == 'n':
 	exit()
 while ch == 'Y':
-	print(color.bold+color.cyan+'\t\t\t                  UUUUUUUUUU            '+color.end)
-	print(color.bold+color.cyan+'\t\t\t            UUUUUU|UUU                  '+color.end)
-	print(color.bold+color.cyan+'\t\t\t            |     |                     '+color.end)
-	print(color.bold+color.cyan+'\t\t\t            |      UUUUUUUUUU           '+color.end)
-	print(color.bold+color.cyan+'\t\t\t             UUUUUUUUU     |            '+color.end)
-	print(color.bold+color.cyan+'\t\t\t                     |     |            '+color.end)
-	print(color.bold+color.cyan+'\t\t\t                   UU|UUUUUU            '+color.end)
-	print(color.bold+color.cyan+'\t\t\t             UUUUUUUUUU                 '+color.end)
+	print(color.bold+color.cyan+'\t\t\t       _______   _   _      __       __   _________  ________                             '+color.end)
+	print(color.bold+color.cyan+'\t\t\t      /  ____/  | | | |     \  \    /  / | ________||  ____  \                            '+color.end)
+	print(color.bold+color.cyan+'\t\t\t      | |____   | | | |      \  \  /  /  | |____    | |____|  |                           '+color.end)
+	print(color.bold+color.cyan+'\t\t\t       \____ \  | | | |       \  \/  /   |  ____|   |  ___   /                            '+color.end)
+	print(color.bold+color.cyan+'\t\t\t            \ | | | | |        \    /    | |        | |   \ \                             '+color.end)
+	print(color.bold+color.cyan+'\t\t\t       _____| | | | | |_____    \  /     | |______  | |    \ \                            '+color.end)
+	print(color.bold+color.cyan+'\t\t\t       \______/ |_| |_______|    \/      |________| |_|     \_\                           '+color.end)
+	print(color.bold+color.cyan+'\t\t\t                                                                                          '+color.end)
+	print(color.bold+color.cyan+'\t\t       _______  __      __  _______  ___________   _________  __          __            '+color.end)
+	print(color.bold+color.cyan+'\t\t      /  ____/  \ \    / / /  ____/ |____   ____| | ________||  \        /  |           '+color.end)
+	print(color.bold+color.cyan+'\t\t      | |____    \ \  / /  | |____       | |      | |___     |   \      /   |           '+color.end)
+	print(color.bold+color.cyan+'\t\t       \____ \    \ \/ /    \____ \      | |      |  ___|    | |\ \    / /| |           '+color.end)
+	print(color.bold+color.cyan+'\t\t            \ |    \  /          \ |     | |      | |        | | \ \  / / | |           '+color.end)
+	print(color.bold+color.cyan+'\t\t       _____| |     | |     _____| |     | |      | |_______ | |  \ \/ /  | |           '+color.end)
+	print(color.bold+color.cyan+'\t\t       \______/     |_|     \______/     |_|      |_________||_|   \__/   |_|           '+color.end)
 	print(color.red+'0.\t'+color.green+'Exit'+color.end)
 	print(color.red+'0.1\t'+color.green+'See number of lines in programs'+color.end)
 	print(color.red+'0.2\t'+color.green+'Want to see code for below programs'+color.end)
@@ -118,6 +128,7 @@ while ch == 'Y':
 	print(color.red+'17.\t'+color.green+'Rename a file'+color.end)
 	print(color.red+'18.\t'+color.green+'Check running process and kill them'+color.end)
 	print(color.red+'19.\t'+color.green+'Change permissions of a file'+color.end)
+	print(color.red+'20.\t'+color.green+'Locate a specific type of file'+color.end)
 	y = float(input(color.purple+'Enter you choice:\t'+color.red))		 
 	if y == 0 :
 		zero()
@@ -165,4 +176,6 @@ while ch == 'Y':
 		eighteen()
 	if y == 19:
 		nineteen()
+	if y == 20:
+		twenty()
 	ch = input(color.yellow+color.bold+'\nDo you want to continue main program(Y/n):\t'+color.orange)
