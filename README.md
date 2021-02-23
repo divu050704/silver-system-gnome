@@ -4,7 +4,7 @@
 2. Tried to solve problems what I faced while learning bash and linux
 3. Please help me get more functionalities
 4. Deliberately not used GUI so that you can get used to bash
-
+![Screenshot1](https:/github.com/divu050704/silver-system-gnome/screenshots/1.png)
 ## Requirements:
 ### Linux
 ### Python > 2.7 
