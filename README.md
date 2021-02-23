@@ -5,6 +5,7 @@
 3. Please help me get more functionalities
 4. Deliberately not used GUI so that you can get used to bash
 ![Screenshot1](https://github.com/divu050704/silver-system-gnome/blob/main/screenshots/1.png)
+![Screenshot2](https://github.com/divu050704/silver-system-gnome/blob/main/screenshots/2.png)
 ## Requirements:
 ### Linux
 ### Python > 2.7 
