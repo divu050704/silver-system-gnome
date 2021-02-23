@@ -22,7 +22,7 @@
 ## Use 
 #### 1. Open terminal
 #### 2. Go to silver-system directory
-#### 3. Go to nautilus => Click 3-vertical dots => Preference => Behaviour => For executible files click radio button 'Run Them'
-#### 4. Install
+     $ cd <path to file>
+#### 3. Install
      $ chmod +x install.sh && ./install.sh
 ### Done | Have fun 
