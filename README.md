@@ -25,4 +25,4 @@
      $ cd <path to file>
 #### 3. Install
      $ chmod +x install.sh && ./install.sh
-### Done :smiley: :smiley: | Have fun :thumbsup: :thumbsup:
+### Done :thumbsup: :thumbsup: | Have fun :smiley: :smiley: :partying_face:
