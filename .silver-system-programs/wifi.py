@@ -1,2 +1,2 @@
 import os
-os.system('chmod +x nmap.sh && ./nmap.sh')
+os.system('sudo chmod +x nmap.sh && ./nmap.sh')
