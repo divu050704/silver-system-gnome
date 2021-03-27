@@ -14,4 +14,5 @@ class color():
    underline = '\033[4m'
    end = '\033[0m'
 ad = input(color.purple+'Enter ip or website you want to ping:\t'+color.end)
-subprocess.run(['ping',ad])
+print(color.purple+color.bold+'\t\t\tWEBSITE WILL BE PINGED 10 TIMES'+color.end)
+subprocess.run(['ping','-c','10',ad])
