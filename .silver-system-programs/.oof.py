@@ -44,47 +44,44 @@ def five():
 	os.system('python3 install.py')
 def six():
 	os.chdir('/usr/.silver-system-programs')
-	os.system('python3 app.py')
+	os.system('python3 remove.py')
 def seven():
 	os.chdir('/usr/.silver-system-programs')
-	os.system('python3 remove.py')
+	os.system('python3 dir.py')
 def eight():
 	os.chdir('/usr/.silver-system-programs')
-	os.system('python3 dir.py')
+	os.system('python3 file.py')
 def nine():
 	os.chdir('/usr/.silver-system-programs')
-	os.system('python3 file.py')
+	os.system('python3 del.py')
 def ten():
 	os.chdir('/usr/.silver-system-programs')
-	os.system('python3 del.py')
+	os.system('python3 move.py')
 def eleven():
 	os.chdir('/usr/.silver-system-programs')
-	os.system('python3 move.py')
+	os.system('python3 copy.py')
 def twelve():
 	os.chdir('/usr/.silver-system-programs')
-	os.system('python3 copy.py')
+	os.system('python3 locate.py')
 def thirteen():
 	os.chdir('/usr/.silver-system-programs')
-	os.system('python3 locate.py')
+	os.system('python3 search.py')
 def fourteen():
 	os.chdir('/usr/.silver-system-programs')
-	os.system('python3 search.py')
+	os.system('python3 about.py')
 def fifteen():
 	os.chdir('/usr/.silver-system-programs')
-	os.system('python3 about.py')
+	os.system('python3 disk-info.py')
 def sixteen():
 	os.chdir('/usr/.silver-system-programs')
-	os.system('python3 disk-info.py')
+	os.system('python3 rename.py')
 def seventeen():
 	os.chdir('/usr/.silver-system-programs')
-	os.system('python3 rename.py')
-def eighteen():
-	os.chdir('/usr/.silver-system-programs')
 	os.system('python3 process.py')
-def nineteen():
+def eightteen():
 	os.chdir('/usr/.silver-system-programs')
 	os.system('python3 per.py')
-def twenty():
+def nineteen():
 	os.chdir('/usr/.silver-system-programs')
 	os.system('python3 locate-file.py')
 if ch == 'n':
@@ -114,21 +111,20 @@ while ch == 'Y':
 	print(color.red+'3.\t'+color.green+'Ping any website'+color.end)
 	print(color.red+'4.\t'+color.green+'Search devices connected to wifi'+color.end)
 	print(color.red+'5.\t'+color.green+'Install a new application'+color.end)
-	print(color.red+'6.\t'+color.green+'Run an application'+color.end)
-	print(color.red+'7.\t'+color.green+'Remove an application'+color.end)
-	print(color.red+'8.\t'+color.green+'Change your working directory'+color.end)
-	print(color.red+'9.\t'+color.green+'Want to see files in a particular folder'+color.end)
-	print(color.red+'10.\t'+color.green+'Want to remove files and folders'+color.end)
-	print(color.red+'11.\t'+color.green+'Move files and folders'+color.end)
-	print(color.red+'12.\t'+color.green+'Copy files and folders'+color.end)
-	print(color.red+'13.\t'+color.green+'Locate files and folders'+color.end)
-	print(color.red+'14.\t'+color.green+'Search a keyword in a file'+color.end)
-	print(color.red+'15.\t'+color.green+'Want to know about your machine'+color.end)
-	print(color.red+'16.\t'+color.green+'Want to see disk information'+color.end)
-	print(color.red+'17.\t'+color.green+'Rename a file'+color.end)
-	print(color.red+'18.\t'+color.green+'Check running process and kill them'+color.end)
-	print(color.red+'19.\t'+color.green+'Change permissions of a file'+color.end)
-	print(color.red+'20.\t'+color.green+'Locate a specific type of file'+color.end)
+	print(color.red+'6.\t'+color.green+'Remove an application'+color.end)
+	print(color.red+'7.\t'+color.green+'Change your working directory'+color.end)
+	print(color.red+'8.\t'+color.green+'Want to see files in a particular folder'+color.end)
+	print(color.red+'9.\t'+color.green+'Want to remove files and folders'+color.end)
+	print(color.red+'10.\t'+color.green+'Move files and folders'+color.end)
+	print(color.red+'11.\t'+color.green+'Copy files and folders'+color.end)
+	print(color.red+'12.\t'+color.green+'Locate files and folders'+color.end)
+	print(color.red+'13.\t'+color.green+'Search a keyword in a file'+color.end)
+	print(color.red+'14.\t'+color.green+'Want to know about your machine'+color.end)
+	print(color.red+'15.\t'+color.green+'Want to see disk information'+color.end)
+	print(color.red+'16.\t'+color.green+'Rename a file'+color.end)
+	print(color.red+'17.\t'+color.green+'Check running process and kill them'+color.end)
+	print(color.red+'18.\t'+color.green+'Change permissions of a file'+color.end)
+	print(color.red+'19.\t'+color.green+'Locate a specific type of file'+color.end)
 	y = float(input(color.purple+'Enter you choice:\t'+color.red))		 
 	if y == 0 :
 		zero()
@@ -176,6 +172,4 @@ while ch == 'Y':
 		eighteen()
 	if y == 19:
 		nineteen()
-	if y == 20:
-		twenty()
 	ch = input(color.yellow+color.bold+'\nDo you want to continue main program(Y/n):\t'+color.orange)
