@@ -15,6 +15,6 @@ class color():
    end = '\033[0m'
 ch = 'Y'
 while ch == 'Y':
-	path = input(color.purple+'Enter path of folder:\t'+color.end)
-	subprocess.run(['ls',path])
-	ch = input(color.darkcyan+'Do you want to continue(Y/n):\t'+color.end)
+	path = input(color.purple+'Enter path of folder:\t'+color.end)#will input path to the directory in which you want to chack files/folders
+	subprocess.run(['ls',path])#'ls' command is executed to check the number of files/folders in 
+	ch = input(color.darkcyan+'Do you want to continue(Y/n):\t'+color.end)#confirmation if the user wants to continue checking files/folders in the directory 

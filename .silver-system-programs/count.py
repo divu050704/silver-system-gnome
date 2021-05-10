@@ -1,3 +1,4 @@
+#This is just for some knowledge about the program or to see which new feature could be added in the software
 class color():
    purple = '\033[95m'
    cyan = '\033[96m'
@@ -12,13 +13,16 @@ class color():
    green = '\033[32m'
    underline = '\033[4m'
    end = '\033[0m'
-file1 = open('/usr/.silver-system-programs/about.py','r')
-counter1 = 0
+'''
+The program is for all the files in used in the software so its quiet long
+'''
+file1 = open('/usr/.silver-system-programs/about.py','r')#opened the file in reading form 
+counter1 = 0 #Initial value given 0
 content1 = file1.read()
-colist1 = content1.split('\n')
-for i in colist1:
-	if i:
- 		counter1+=1
+colist1 = content1.split('\n')#splited the lines
+for i in colist1:#loop for looking the complete file 
+	if i:# 'if i' means that the '\n' in file
+ 		counter1+=1 #This will increase the initial value by 1 and so on
 #######################################################
 file2 = open('/usr/.silver-system-programs/app.py','r')
 counter2 = 0
@@ -198,7 +202,7 @@ for i in colist24:
 	if i:
 		counter24 += 1
 ########################################################################
-total = counter1+counter2+counter3+counter4+counter5+counter6+counter7+counter8+counter9+counter11+counter12+counter13+counter14+counter15+counter16+counter17+counter18+counter19+counter20+counter21+counter22+counter23+counter24
-total1 = total + 170
+total = counter1+counter2+counter3+counter4+counter5+counter6+counter7+counter8+counter9+counter11+counter12+counter13+counter14+counter15+counter16+counter17+counter18+counter19+counter20+counter21+counter22+counter23+counter24#Added number of words in all the files
+total1 = total + 170#Also added number of lines in this file 
 print(color.red+color.bold+'\nTotal number of lines in all the programs:\t'+color.end,total1)
 print()

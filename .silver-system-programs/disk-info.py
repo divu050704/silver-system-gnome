@@ -18,13 +18,13 @@ ch = 'Y'
 while ch == 'Y':
 	print(color.yellow+'In which format you want information'+color.end)
 	print(color.red+'0.\t'+color.green+'Exit'+color.end)
-	print(color.red+'1.\t'+color.green+'Megabyte'+color.end)
-	print(color.red+'2.\t'+color.green+'Bytes'+color.end)
+	print(color.red+'1.\t'+color.green+'Megabyte'+color.end)#To show the size of different paritions in megabytes
+	print(color.red+'2.\t'+color.green+'Bytes'+color.end)#To show the size of disk partitions in bytes
 	y = int(input(color.purple+'Enter your choice:\t'+color.end))
 	if y == 0:
 		print(color.cyan+'Exiting................'+color.end)
 	if y == 1:
-		os.system('df -m')
+		os.system('df -m')# -m stands for megabytes
 	if y == 2:
-		os.system('df')
+		os.system('df')# bytes is default so no need to do something different with the command
 	ch = input(color.blue+color.bold+'Do you want to continue seeing disk informations in different formats(Y/n):\t'+color.end)

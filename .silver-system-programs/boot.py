@@ -1,4 +1,5 @@
 import os
+#Used colours to easily differentiate between different commands
 class color():
    purple = '\033[95m'
    cyan = '\033[96m'
@@ -14,10 +15,9 @@ class color():
    underline = '\033[4m'
    end = '\033[0m'
 cmd = os.system('systemd-analyze')
-ch = input(color.purple+'Do you want blame chain(Y/n):\t'+color.end)
+ch = input(color.purple+'Do you want blame chain(Y/n):\t'+color.end)#blame is a better representation of commands
 if ch == 'Y':
-	cmd2 = os.system('systemd-analyze blame')
-if ch == 'n':
+	cmd2 = os.system('systemd-analyze blame')#running the command for blame chain
 	ch2 = input(color.purple+'Do you want critical-chain(Y/n):\t'+color.end)
-	if ch2 == 'Y':
+	if ch2 == 'Y'
 		cmd3 = os.system('systemd-analyze critical-chain')

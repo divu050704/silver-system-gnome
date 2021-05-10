@@ -17,4 +17,4 @@ ch = 'Y'
 if ch == 'Y':
 	path = input(color.purple+'Enter where you want to go:\t'+color.end)
 	os.chdir(path)
-	os.system('gnome-terminal')
+	os.system('gnome-terminal')#Just changed the working directory for python and opened gnome-terminal
