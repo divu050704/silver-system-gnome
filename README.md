@@ -9,20 +9,20 @@
 ## Requirements:
 ### Linux
 ### Python > 2.7 
-    $ sudo apt install python3.9
+     sudo apt install python3.9
 ### os library 
-    $ pip3 install os
+     pip3 install os
 ### subprocess library 
-    $ pip3 install subprocess
+     pip3 install subprocess
 ### Ofcourse pip3 to install libraries 
-    $ sudo apt get-install pip3
+     sudo apt get-install pip3
 ## Installation
 ### Linux
-    $ git clone https://github.com/divu050704/silver-system
+     git clone https://github.com/divu050704/silver-system
 ## Use 
 #### 1. Open terminal
 #### 2. Go to silver-system directory
-     $ cd <path to file>
+      cd <path to file>
 #### 3. Install
-     $ chmod +x install.sh && ./install.sh
+      chmod +x install.sh && ./install.sh
 ### Done :thumbsup: :thumbsup: | Have fun :smiley: :smiley: :partying_face:
