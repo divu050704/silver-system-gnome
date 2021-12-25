@@ -17,7 +17,6 @@
 ### Ofcourse pip3 to install libraries 
      sudo apt get-install pip3
 ## Installation
-### Linux
      git clone https://github.com/divu050704/silver-system
 ## Use 
 #### 1. Open terminal
